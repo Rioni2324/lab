@@ -28,11 +28,31 @@ function Header() {
           margin: 0,
           padding: 0
         }}>
-          <li><Link to="/" style={navStyle}>Home</Link></li> {/* Link to Home */}
-          <li><Link to="/shop" style={navStyle}>Shop</Link></li> {/* Link to Shop */}
-          <li><a href="#" style={navStyle}>Categories</a></li>
-          <li><a href="#" style={navStyle}>Testimonials</a></li>
-          <li><a href="#" style={navStyle}>Contact</a></li>
+          <li>
+            <Link to="/" style={navStyle}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link to="/shop" style={navStyle}>
+              Shop
+            </Link>
+          </li>
+          <li>
+            <Link to="/categories" style={navStyle}>
+              Categories
+            </Link>
+          </li> {/* Updated to use Link */}
+          <li>
+            <a href="#" style={navStyle}>
+              Testimonials
+            </a>
+          </li>
+          <li>
+            <a href="#" style={navStyle}>
+              Contact
+            </a>
+          </li>
         </ul>
       </nav>
     </header>

@@ -1,20 +1,22 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './components/HomePage';  // Correct import
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './components/HomePage';  
 import Shop from './components/Shop';
+import Categories from './components/Categories';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
 function App() {
   return (
-    <Router>
+    <div>
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} /> {/* Correct reference */}
         <Route path="/shop" element={<Shop />} />
+        <Route path="/categories" element={<Categories />} />
       </Routes>
       <Footer />
-    </Router>
+      </div>
   );
 }
 
