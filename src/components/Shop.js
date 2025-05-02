@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './Header'; // Import Header
-import Footer from './Footer'; // Import Footer
+
+
 
 function Shop() {
   const products = [
@@ -13,7 +13,7 @@ function Shop() {
 
   return (
     <div style={{ fontFamily: 'Arial, sans-serif' }}>
-      <Header />
+      
       <section style={{ padding: '60px 20px', backgroundColor: '#fff' }}>
         <h2 style={{ textAlign: 'center' }}>🛒 Shop Our Products</h2>
         <div style={{
@@ -52,7 +52,7 @@ function Shop() {
           ))}
         </div>
       </section>
-      <Footer />
+      
     </div>
   );
 }
