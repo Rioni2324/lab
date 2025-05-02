@@ -97,6 +97,14 @@ function Categories() {
                   cursor: 'pointer',
                 }}
               > 
+              Shop Now
+              </button>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </section>
+  );
 
 }
 
