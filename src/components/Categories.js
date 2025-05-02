@@ -1,4 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import Header from './Header';
+import Footer from './Footer';
+import Newsletter from './Newsletter';
+
 
 function Categories() {
   const categories = ['Supplements', 'Equipment', 'Apparel', 'Accessories'];
