@@ -25,7 +25,30 @@ const testimonials = [
     quote: "Energjia gjatë stërvitjeve është 🔥. 100% e rekomandoj.",
     image: "https://i.pravatar.cc/100?img=8",
   },
-  
+  {
+    name: "Driton R.",
+    title: "Athlete",
+    quote: "Energjia gjatë stërvitjeve është 🔥. 100% e rekomandoj.",
+    image: "https://i.pravatar.cc/100?img=8",
+  },
+  {
+    name: "Driton R.",
+    title: "Athlete",
+    quote: "Energjia gjatë stërvitjeve është 🔥. 100% e rekomandoj.",
+    image: "https://i.pravatar.cc/100?img=8",
+  },
+  {
+    name: "Driton R.",
+    title: "Athlete",
+    quote: "Energjia gjatë stërvitjeve është 🔥. 100% e rekomandoj.",
+    image: "https://i.pravatar.cc/100?img=8",
+  },
+  {
+    name: "Driton R.",
+    title: "Athlete",
+    quote: "Energjia gjatë stërvitjeve është 🔥. 100% e rekomandoj.",
+    image: "https://i.pravatar.cc/100?img=8",
+  },
 ];
 
 export default function Testimonials() {
