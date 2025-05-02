@@ -46,7 +46,58 @@ function Categories() {
           marginTop: '30px',
         }}
       > 
-      
+      {categories.map((category, i) => (
+          <Link
+            key={i}
+            to={`/shop?category=${category.name}`}
+            style={{ textDecoration: 'none', color: 'inherit' }}
+          >
+            <div
+              style={{
+                textAlign: 'center',
+                width: '250px',
+                padding: '20px',
+                border: '1px solid #ccc',
+                borderRadius: '8px',
+                backgroundColor: '#fff',
+                boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+                transition: 'transform 0.3s',
+                cursor: 'pointer',
+              }}
+              onMouseEnter={(e) =>
+                (e.currentTarget.style.transform = 'scale(1.05)')
+              }
+              onMouseLeave={(e) =>
+                (e.currentTarget.style.transform = 'scale(1)')
+              }
+            > 
+            <img
+                src={category.img}
+                alt={category.name}
+                style={{
+                  width: '100%',
+                  height: '150px',
+                  objectFit: 'cover',
+                  borderRadius: '8px',
+                }}
+              />
+              <h3 style={{ margin: '15px 0 10px', fontSize: '1.5rem' }}>
+                {category.name}
+              </h3>
+              <p style={{ color: '#666', marginBottom: '15px' }}>
+                {category.description}
+              </p>
+              <button
+                style={{
+                  padding: '10px 20px',
+                  backgroundColor: '#ff4081',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '5px',
+                  cursor: 'pointer',
+                }}
+              > 
+
 }
 
 export default Categories;
