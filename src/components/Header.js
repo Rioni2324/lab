@@ -44,7 +44,7 @@ function Header() {
             </Link>
           </li> {/* Updated to use Link */}
           <li>
-            <a href="#" style={navStyle}>
+            <a href="/testimonials" style={navStyle}>
               Testimonials
             </a>
           </li>
